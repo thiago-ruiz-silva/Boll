@@ -8,6 +8,7 @@ public class Botoes : MonoBehaviour {
     //Para poder mostrar e não mostrar as mensagens ---Na (Cena) (Mensagem)---
     public GameObject mensagemDoacao, mensagemPix, mensagemPayPal;
 
+    public int numero;
 	void Start () {
 		
 	}
