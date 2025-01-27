@@ -6,7 +6,7 @@ using UnityEngine;
 public class Mover : MonoBehaviour {
 
     //Variável booleana para checar se a (Bola) está se movendo para a direita ou para a esquerda
-    private bool paraDireita, numero;
+    private bool paraDireita;
 
     void Start()
     {
