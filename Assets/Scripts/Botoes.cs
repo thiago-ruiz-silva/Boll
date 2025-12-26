@@ -48,10 +48,9 @@ public class Botoes : MonoBehaviour {
     }
 
     //Método para fechar o app
-    public void Fechar()
+    public void Zerar()
     {
-        //Para fechar o app
-        Application.Quit();
+        PlayerPrefs.SetFloat("recorde", 0);
     }
 
     //Para copiar a (Chave) (Pix) de doação do (Jogo)
