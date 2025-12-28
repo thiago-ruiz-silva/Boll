@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 47e26571771ba514baa4c11f7b5f0fa5
+guid: e238dd1bdd1551f4f95323104b3bdb9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6485667024043989884
-    second: izi_0
+      213: -6728907581745820342
+    second: Voltar 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: izi_0
+      name: Voltar 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 484a46444384ef5a0800000000000000
-      internalID: -6485667024043989884
+      spriteID: a4d8b97a43e1e92a0800000000000000
+      internalID: -6728907581745820342
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      izi_0: -6485667024043989884
+      Voltar 1_0: -6728907581745820342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
