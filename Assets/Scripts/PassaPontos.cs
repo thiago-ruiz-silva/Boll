@@ -14,6 +14,9 @@ public class PassaPontos : MonoBehaviour {
 
 	public static bool isJogando;
 
+	//Gambiarra para poder "zerar" os pontos que o (Jogador) fez, na tela de (Gameover)
+	public static bool zerarPontos = false;
+
 	// Use this for initialization
 	void Start () {
 

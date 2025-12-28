@@ -27,7 +27,8 @@ public class Botoes : MonoBehaviour {
         Time.timeScale = 1;
 
         //Para zerar os pontos da (CenaJogar)
-        PassaPontos.pontos = 0;        
+        PassaPontos.pontos = 0; 
+        
     }
 
     //Para (Chamar) a (Cena) (Mensagem) que é a (Cena) para (Doação) do (Jogo)
@@ -51,6 +52,8 @@ public class Botoes : MonoBehaviour {
     public void Zerar()
     {
         PlayerPrefs.SetFloat("recorde", 0);
+
+        PassaPontos.zerarPontos = true;
     }
 
     //Para copiar a (Chave) (Pix) de doação do (Jogo)

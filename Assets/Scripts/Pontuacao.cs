@@ -18,15 +18,20 @@ public class Pontuacao : MonoBehaviour
     void Start()
     {
 
-
+        //Para pegar a pontuação do (Jogo)
+        pontuacao.text = (PassaPontos.pontos.ToString("F2"));
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Para "zerar" os pontos que o (Jogador) fez
+        if (PassaPontos.zerarPontos)
+        {
+            //Para que o valor volte a ser (0)
+            pontuacao.text = "0,00";
 
-        //Para pegar a pontuação do (Jogo)
-        pontuacao.text = (PassaPontos.pontos.ToString("F2"));
+        }       
 
         //Para armazenar no banco de dados a pontuação mais alta feita no (Jogo)
         maximo = PlayerPrefs.GetFloat("recorde", PassaPontos.maximo);

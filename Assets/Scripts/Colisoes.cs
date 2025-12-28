@@ -23,6 +23,8 @@ public class Colisoes : MonoBehaviour
     void Start()
     {
 
+        PassaPontos.zerarPontos = false;
+
         //Para passar os (Pontos) (Tempo) para a outra cena
         pontos = PassaPontos.pontos;
 
